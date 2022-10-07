@@ -1,0 +1,26 @@
+package week1.day2;
+
+public class ArmstrongNumber {
+	public static void main(String[] args) {
+		int number = 153;
+		int calculate = 0;
+		int remainder = 0;
+		int original = 0;
+		int quotient = 0;
+		original = number;
+		while (number > 0) {
+			remainder = number % 10;
+			quotient = number / 10;
+			calculate = calculate + remainder * remainder * remainder;
+			number = quotient;
+
+		}
+		if (calculate == original) {
+			System.out.println(calculate + "is a armstrong number");
+		} else {
+			System.out.println(calculate + " is not a armstrong number");
+		}
+
+	}
+
+}
