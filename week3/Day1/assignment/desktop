@@ -1,0 +1,31 @@
+package org.system;
+
+public class desktop extends Computer {
+
+	public void twelveinch() {
+		System.out.println("12i");
+
+	}
+
+	// 1
+
+	public void thirteeninch() {
+		System.out.println("13i");
+	}
+	// 2
+
+	public void fourteeninch() {
+		System.out.println("14i");
+	}
+
+	public static void main(String[] args) {
+		desktop object = new desktop();
+		object.dell();
+		object.hp();
+		object.lenovo();
+		object.twelveinch();
+		object.thirteeninch();
+		object.fourteeninch();
+
+	}
+}
