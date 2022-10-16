@@ -1,0 +1,15 @@
+package Week3.Day1;
+
+public class Audi extends car{
+	
+	public void hybridFuel() {
+	  	  System.out.println("hybridFuel");
+	  	  
+	    }
+	public void applyBrake() {
+		System.out.println("Abs Brakes");
+	}
+	    
+
+
+}
