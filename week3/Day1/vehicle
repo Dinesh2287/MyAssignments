@@ -1,0 +1,16 @@
+package Week3.Day1;
+
+public class Vehicle {
+      public void applyBrake() {
+    	  System.out.println("applyBrake");
+    	  
+      }
+      
+      public void normalbrake() {
+    	  System.out.println("ApplyNB");
+      }
+      public void soundhorn() {
+    	  System.out.println("soundhorn");
+      }
+      
+}
