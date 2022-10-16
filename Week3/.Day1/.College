@@ -1,0 +1,19 @@
+package org.college;
+
+public class college {
+
+	public void collegename() {
+		System.out.println("TNC");
+		
+	}
+	//1
+	
+	public void collegeCode() {
+		System.out.println("001");
+	}
+	
+	//2
+	public void collegeRank() {
+		System.out.println("100");
+	}
+}
