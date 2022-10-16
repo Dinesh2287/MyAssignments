@@ -1,0 +1,21 @@
+package org.department;
+
+import org.college.college;
+
+public class department extends college {
+
+	public void Arts() {
+		System.out.println("arts");
+
+	}
+	// 1
+
+	public void commerce() {
+		System.out.println("commerce");
+	}
+
+	// 2
+	public void engineering() {
+		System.out.println("engineering");
+	}
+}
