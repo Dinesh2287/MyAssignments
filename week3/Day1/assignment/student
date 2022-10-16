@@ -1,0 +1,41 @@
+package org.student;
+
+import org.department.department;
+
+public class student extends department {
+
+	public void studentName() {
+		System.out.println("Dinesh");
+
+	}
+	// 1
+
+	public void studentDept() {
+		System.out.println("bcom");
+	}
+
+	// 2
+	public void studentId() {
+		System.out.println("12345");
+	}
+
+	public static void main(String[] args) {
+		student abc = new student();
+		abc.collegeCode();
+		abc.collegename();
+		abc.collegeRank();
+		System.out.println("1");
+
+		abc.Arts();
+		abc.commerce();
+		abc.engineering();
+
+		System.out.println("2");
+
+		abc.studentDept();
+		abc.studentId();
+		abc.studentName();
+
+		System.out.println("3");
+	}
+}
