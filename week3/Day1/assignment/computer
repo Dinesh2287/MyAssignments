@@ -1,0 +1,20 @@
+package org.system;
+
+public class Computer {
+	 
+	public void dell() {
+		System.out.println("Dell");
+		
+	}
+	//1
+	
+	public void hp() {
+		System.out.println("hp");
+	}
+	
+	//2
+	public void lenovo() {
+		System.out.println("lenovo");
+	}
+
+}
