@@ -1,0 +1,9 @@
+package Week3.Day1;
+
+public class Bmw extends car {
+	
+	public void autoPark() {
+	  	  System.out.println("autoPark");
+	  	  
+	}
+}
