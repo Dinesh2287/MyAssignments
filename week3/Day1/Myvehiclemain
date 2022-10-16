@@ -1,0 +1,40 @@
+	package Week3.Day1;
+	
+	public class Myvechiclemain {
+		public static void main(String[] args) {
+			car obj = new car();
+			obj.applyBrake();
+			obj.openSunroof();
+			obj.turnOnAC();
+			
+			
+			Bmw abc = new Bmw();
+			abc.applyBrake();
+			abc.openSunroof();
+			abc.turnOnAC();
+			abc.autoPark();
+			
+			
+			Audi efg = new Audi();
+			efg.applyBrake();
+			efg.hybridFuel();
+			efg.openSunroof();
+			efg.turnOnAC();
+			efg.normalbrake();
+			
+			
+			
+			bajaj hij = new bajaj();
+			hij.applyBrake();
+			hij.soundhorn();
+			hij.handStarted();
+			hij.electronicMeter();
+			
+			
+			
+			
+			
+			
+		}
+	
+	}
