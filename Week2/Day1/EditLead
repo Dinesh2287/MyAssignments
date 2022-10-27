@@ -35,7 +35,7 @@ public class EditLead {
 		WebElement elementDepartment = driver.findElement(By.id("createLeadForm_departmentName"));
 		elementDepartment.sendKeys("Testing");
 		WebElement elementDescription = driver.findElement(By.name("description"));
-		elementDescription.sendKeys("i love you nila papa");
+		elementDescription.sendKeys(" nila papa");
 		WebElement elementPrimaryEmail = driver.findElement(By.id("createLeadForm_primaryEmail"));
 		elementPrimaryEmail.sendKeys("Dinesh777dhoni@gmail.com");
 		WebElement elementCreatefinal = driver.findElement(By.className("smallSubmit"));
@@ -45,7 +45,7 @@ public class EditLead {
 		WebElement elementDescription1 = driver.findElement(By.id("updateLeadForm_description"));
 		elementDescription1.clear();
 		WebElement elementImportantNote = driver.findElement(By.id("updateLeadForm_importantNote"));
-		elementImportantNote.sendKeys("I love u subi ma");
+		elementImportantNote.sendKeys("Dinesh");
 		WebElement elementUpdate = driver.findElement(By.name("submitButton"));
 		elementUpdate.click();
 		String title23 = driver.getTitle();
